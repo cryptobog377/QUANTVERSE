@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QUANTVERSE | Explore the Data Universe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      color: #e0e8ff;
+      font-family: 'Orbitron', sans-serif;
+      background: url('https://i.pinimg.com/736x/8b/0c/f2/8b0cf2273b4dc7d09223daeb5a4fa3d1.jpg') center center / cover no-repeat fixed;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 10px;
+    }
+
+    header h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 4rem;
+      color: #fff;
+      text-shadow: 0 0 10px #ffffff, 0 0 30px #00ffff, 0 0 60px #00ffff, 0 0 100px #0099ff;
+      letter-spacing: 3px;
+      margin-bottom: 10px;
+      animation: flicker 3s infinite;
+    }
+
+    @keyframes flicker {
+      0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+        opacity: 1;
+      }
+      20%, 24%, 55% {
+        opacity: 0.6;
+      }
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #cfe3ff;
+      letter-spacing: 1px;
+      text-shadow: 0 0 10px rgba(255,255,255,0.6);
+    }
+
+    .contract-box {
+      text-align: center;
+      margin: 30px auto 60px;
+      padding: 30px;
+      font-family: 'Courier New', monospace;
+      font-size: 1.3rem;
+      color: #000;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-radius: 12px;
+      background: #ffffff;
+      box-shadow: 0 0 40px rgba(255, 255, 255, 0.5);
+      width: 60%;
+    }
+
+    .section {
+      max-width: 900px;
+      margin: 0 auto 80px;
+      padding: 40px;
+      background: rgba(0, 0, 0, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 16px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 25px rgba(0, 100, 255, 0.3);
+    }
+
+    .section h2 {
+      text-align: center;
+      font-size: 2rem;
+      color: #7ec7ff;
+      margin-bottom: 30px;
+      text-shadow: 0 0 20px rgba(126,199,255,0.8);
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 30px;
+    }
+
+    .feature {
+      flex: 1 1 40%;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      transition: all 0.3s;
+    }
+
+    .feature:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 0 25px rgba(0, 150, 255, 0.4);
+    }
+
+    .feature h3 {
+      color: #f7d77e;
+      margin-bottom: 10px;
+      text-shadow: 0 0 10px rgba(247,215,126,0.6);
+    }
+
+    .feature p {
+      color: #cfd8ff;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      font-size: 0.9rem;
+      color: #8aa3ff;
+      text-shadow: 0 0 10px rgba(255,255,255,0.4);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>QUANTVERSE</h1>
+    <p>Explore The Data Universe</p>
+  </header>
+
+  <div class="contract-box">
+    TOKEN CONTRACT: <b>TBA</b>
+  </div>
+
+  <section class="section">
+    <h2>Modular Ecosystem of Data Intelligence</h2>
+    <p style="text-align:center; max-width:700px; margin: 0 auto;">
+      QUANTVERSE connects blockchains, CEX, and AI systems through a unified network of analytical APIs. 
+      Access modular datasets, secure computation, and cross-chain metrics using the QVS token as your key.
+    </p>
+
+    <div class="features">
+      <div class="feature">
+        <h3>Data Constellations</h3>
+        <p>Visualize blockchain and market connections as living star maps of real-time analytics.</p>
+      </div>
+      <div class="feature">
+        <h3>AI Integration</h3>
+        <p>Empower agents and funds with deep learning-driven prediction and data insights.</p>
+      </div>
+      <div class="feature">
+        <h3>Cross-chain Analytics</h3>
+        <p>Analyze and correlate activity across CEX, DEX, and DeFi protocols in one unified model.</p>
+      </div>
+      <div class="feature">
+        <h3>Private Computation</h3>
+        <p>Stake QVS to enable privacy-preserving data computations through secure modular nodes.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © QUANTVERSE 2025 — Data Beyond The Horizon.
+  </footer>
+</body>
+</html>
